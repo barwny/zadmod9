@@ -104,8 +104,13 @@ if st.button("Wyczaruj czas"):
             st.error("🧙‍♂️ Nie mogę rozpoznać wprowadzonych danych.")
             st.stop()
 
-        if wiek < 18 or wiek > 100:
+        if wiek < 18:
             st.warning("🧙‍♂️ Moje czary działają tylko dla wieku 18-100 lat.")
+            st.stop()
+
+        if wiek > 100:
+            st.warning("🧙‍♂️ Gratulacje z racji osiągnięcia tak zacnego wieku! Jednakże moje czary działają tylko w zakresie 18-100 lat.")
+            st.balloons()
             st.stop()
 
         if wiek <= 0 or czas_5km <= 0:
