@@ -3,7 +3,7 @@ streamlit
 python-dotenv
 streamlit
 joblib
-pandas
+pandas==1.5.3
 python-dotenv
 plotly
 openai
