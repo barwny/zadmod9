@@ -6,3 +6,4 @@ joblib
 pandas
 python-dotenv
 plotly
+openai
