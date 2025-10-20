@@ -101,7 +101,7 @@ if st.button("Wyczaruj czas"):
             st.stop()
 
         if plec not in ["Kobieta", "Mężczyzna"] or not isinstance(wiek, int) or not isinstance(czas_5km, (int, float)):
-            st.error("🧙‍♂️ Nie mogę rozpoznać wprowadzonych danych.")
+            st.error("🧙‍♂️ Nie mogę rozpoznać wprowadzonych danych. Wprowadziłeś w poprawnej formie?")
             st.stop()
 
         if wiek < 18:
