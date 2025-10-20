@@ -16,7 +16,7 @@ load_dotenv()
 if "OPENAI_API_KEY" in os.environ:
     openai_api_key = os.environ["OPENAI_API_KEY"]
 else:
-    openai_api_key = st.text_input("Podaj klucz OpenAI", type="password")
+    openai_api_key = st.text_input("Wprowadz swój klucz API od OpenAI aby kontynuować", type="password")
 
 if not openai_api_key:
     st.stop()
