@@ -8,6 +8,7 @@ import plotly.graph_objects as go
 from langfuse.decorators import observe
 from langfuse.openai import OpenAI as LangfuseOpenAI
 import os
+import scipy
 
 #zmienne środowiskowe
 load_dotenv()
