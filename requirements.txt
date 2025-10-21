@@ -3,7 +3,6 @@ streamlit
 python-dotenv
 joblib
 pandas==1.5.3
-python-dotenv
 plotly
 openai
 pycaret==3.3.2
